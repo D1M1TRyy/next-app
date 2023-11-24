@@ -1,0 +1,23 @@
+
+.container{
+    padding: 0 20px;
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+.container .icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.container .icons img{
+    cursor: pointer;
+    transition: .2s;
+}
+.container .icons img:hover{
+    scale: 1.2;
+}
