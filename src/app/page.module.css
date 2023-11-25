@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: aqua;
 }
 .main .login input{
   width: 260px;
@@ -47,4 +48,19 @@
   outline: none;
   padding: 5px 12px;
   font-size: large;
+  background-color: transparent;
+}
+.main .textarea{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main .textarea textarea{
+  background-color: aqua;
+  font-size: large;
+  padding: 20px;
+  outline: none;
 }
