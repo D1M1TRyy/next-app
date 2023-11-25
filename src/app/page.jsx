@@ -33,6 +33,9 @@ export default function Home() {
       <div className={styles.textarea}>
         <textarea name="" id="" cols="30" rows="10"></textarea>
       </div>
+      <div className={styles.textarea}>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
       
     </main>
   )
