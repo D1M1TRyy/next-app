@@ -1,39 +1,28 @@
 import Navbar from '@/components/navbar/Navbar'
 import styles from './page.module.css'
-import Image from 'next/image'
+import Image from "next/image";
+import Hero from "public/hero.png";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      
-      {/* <div className={styles.container}>
-        <div className={styles.wrapper}>
-          <div className={styles.card}>
-            <p>hi</p>
-          </div>
-          <div className={styles.card}>
-            <p>hi</p>
-          </div>
-          <div className={styles.card}>
-            <p>hi</p>
-          </div>
-          <div className={styles.card}>
-            <p>hi</p>
-          </div>
-        </div>
+    <main className={styles.container}>
+      <div className={styles.item}>
+        <h1 className={styles.title}
+          >Better design for your digital products
+        </h1>
+        <p className={styles.desc}> 
+          Turning your Idea into Reality. We bring together the teams from the
+          global tech industry.
+          </p>
+        <button className={styles.button}>See Our Works</button>
       </div>
-      
-      <div className={styles.login}>
-        <div className={styles.wrapper}>
-          <input type="text" />
-          <Image src="/1.png" width="20" height="20"/>
-        </div>
-        
-      </div> */}
-      <div className={styles.textareas}>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+
+
+      <div className={styles.item}>
+        <Image className={styles.img} src={Hero} alt="hero" />
       </div>
+
+
       
       
     </main>
