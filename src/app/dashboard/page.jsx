@@ -2,7 +2,7 @@ import React from 'react'
 
 function dashboard() {
   return (
-    <div>This is dashboard page</div>
+    <div>This is dashboard . hi everyone</div>
   )
 }
 
