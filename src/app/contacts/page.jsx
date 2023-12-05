@@ -14,6 +14,7 @@ function Contact() {
             alt="contact image"
             fill={true}
             className={styles.image}
+            
           />
         </div>
         <form className={styles.form}>
