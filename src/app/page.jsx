@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar/Navbar'
 import styles from './page.module.css'
 import Image from "next/image";
 import Hero from "public/hero.png";
+import Button from '@/components/button/Button';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           Turning your Idea into Reality. We bring together the teams from the
           global tech industry.
           </p>
-        <button className={styles.button}>See Our Works</button>
+          <Button title={"see our works"} url={"/portfolio"}/>
       </div>
 
 
