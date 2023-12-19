@@ -22,3 +22,14 @@ a {
   text-decoration: none;
   color: inherit
 }
+.theme{
+  transition: .3s;
+}
+.dark{
+  background-color: #111;
+  color: #bbb;
+}
+.light{
+  background-color: white;
+  color: #111;
+}
