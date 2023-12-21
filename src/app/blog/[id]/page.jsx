@@ -16,7 +16,6 @@ const BlogPost = ({ params }) => {
         setLoading(false);
       });
   }, []);
-
   const handleNextImage = () => {
     if (imgCounter == 2) {
       return;
@@ -24,7 +23,6 @@ const BlogPost = ({ params }) => {
       setImgCounter(imgCounter + 1);
     }
   };
-
   const handlePrevImage = () => {
     if (imgCounter == 0) {
       return;
@@ -32,7 +30,6 @@ const BlogPost = ({ params }) => {
       setImgCounter(imgCounter - 1);
     }
   };
-
   return (
     <div className={styles.container}>
       {loading && <div>please wait...</div>}
@@ -84,5 +81,4 @@ const BlogPost = ({ params }) => {
     </div>
   );
 };
-
 export default BlogPost;
