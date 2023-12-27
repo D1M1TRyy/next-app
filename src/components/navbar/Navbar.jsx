@@ -8,7 +8,9 @@ function Navbar() {
   return (
     <div className={styles.container}>
       <div className={"styles.logo"}>
-        <Link></Link>
+        <div>
+          <nav></nav>
+        </div>
       </div>
     </div>
   );
